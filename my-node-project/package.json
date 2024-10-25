@@ -3,10 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["node", "project"],
   "author": "SuhCh",
   "license": "ISC",
-  "description": "A brief description of my project"
+  "description": "A brief description of my project",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  }
 }
